@@ -1,0 +1,5 @@
+dinosaurio/
+
+# Ignorar archivos de Selenium (p.ej. drivers de navegador si los tienes en el proyecto)
+chromedriver.exe
+geckodriver.exe
