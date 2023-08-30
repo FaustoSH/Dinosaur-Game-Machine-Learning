@@ -5,1496 +5,644 @@ Ha llegado hasta 1 puntos
 Comenzando entrenamiento
 Ha llegado hasta 10 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -28.206896551724142 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -102.88888888888889 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 21 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 20 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 17 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 18 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 11 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -205.27272727272728 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -194.3913043478261 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 17 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 11 puntos
+Ha llegado hasta -230.0 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -296.5 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 17 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -217.0952380952381 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -244.15789473684208 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -277.11764705882354 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -259.77777777777777 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -296.5 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -118.5151515151515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -33.28571428571429 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 26 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 25 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -77.04761904761905 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -77.04761904761905 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 22 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -118.5151515151515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 20 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -184.33333333333334 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -98.13513513513513 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -98.13513513513513 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 21 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -102.88888888888889 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 20 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -107.85714285714286 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -69.63636363636364 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -44.15384615384616 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -118.5151515151515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -73.27906976744185 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta 15.708860759493668 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -118.5151515151515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -77.04761904761905 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 20 puntos
+Ha llegado hasta -89.2051282051282 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -98.13513513513513 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -175.0 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -41.339622641509436 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 16 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 21 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 25 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta 2.555555555555557 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -47.03921568627452 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -113.05882352941177 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -166.30769230769232 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 12 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -98.13513513513513 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -143.41379310344828 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -118.5151515151515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -158.1851851851852 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -136.66666666666666 puntos
 Encontrado final
-Ha llegado hasta 21 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 13 puntos
+Ha llegado hasta -85.0 puntos
 Encontrado final
-Ha llegado hasta 14 puntos
+Ha llegado hasta -150.57142857142858 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -124.25 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -102.88888888888889 puntos
 Encontrado final
-Ha llegado hasta 19 puntos
+Ha llegado hasta -130.29032258064515 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -50.0 puntos
 Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 22 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 17 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 19 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 21 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 18 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 21 puntos
-Encontrado final
-Ha llegado hasta 19 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 17 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 21 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 23 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 24 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 8 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 17 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 18 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 28 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 20 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 18 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 24 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 17 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 18 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 28 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 34 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 16 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 25 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 11 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 14 puntos
-Encontrado final
-Ha llegado hasta 25 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 12 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 13 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
-Encontrado final
-Ha llegado hasta 15 puntos
+Ha llegado hasta -130.29032258064515 puntos
