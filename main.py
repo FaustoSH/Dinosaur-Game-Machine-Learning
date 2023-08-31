@@ -202,11 +202,11 @@ logging.info("Comenzando entrenamiento")
 model.learn(total_timesteps=600000)  # Aproximadamente 10 minutos de entrenamiento
 
 logging.info("Comenzando juego")
-observation = env.reset() # Inicialización de la observación
+observation, arrayVacio = env.reset() # Inicialización de la observación
 while True:
     action, _states = model.predict(observation)
-    observation, reward, done, info = env.step(action)
+    observation, reward, done, info, arrayVacio = env.step(action)
     if done:
         logging.info("Partida terminada")
-        observation = env.reset()
+        observation, arrayVacio = env.reset()
 
