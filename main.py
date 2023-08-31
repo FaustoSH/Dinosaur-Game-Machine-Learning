@@ -31,7 +31,7 @@ class DinoEnv(gym.Env):
         super(DinoEnv, self).__init__()
         self.driver = webdriver.Chrome()
         self.action_space = spaces.Discrete(3)  # Salto, agacharse o no hacer nada
-        self.observation_space = spaces.Box(low=0, high=1, shape=(3, 80, 80), dtype=np.float32)
+        self.observation_space = spaces.Box(low=0, high=1, shape=(2, 80, 80), dtype=np.float32)
         self.DIED_CONSTANT=5000
         self.counter = 0
         self.points = 0
@@ -48,18 +48,15 @@ class DinoEnv(gym.Env):
 
     def preprocess_image(self, image):
         # Definir las coordenadas de recorte (por ejemplo)
-        y_start, y_end, x_start, x_end = 200, 425, 150, 1000 #Coordenadas de detección de obstáculos
-        y_start1, y_end1, x_start1, x_end1 = 150, 250, 0, 100 #Coordenadas de detección de salto
-        y_start2, y_end2, x_start2, x_end2 = 350, 425, 0, 100 #Coordenadas de detección de dinosaurio en tierra
+        y_start, y_end, x_start, x_end = 200, 435, 150, 1500 #Coordenadas de detección de obstáculos
+        y_start1, y_end1, x_start1, x_end1 = 200, 435, 0, 150 #Coordenadas de detección de dinosaurio
 
         # Recortar la región de interés
         cropped_image = image[y_start:y_end, x_start:x_end]
         cropped_image1 = image[y_start1:y_end1, x_start1:x_end1]
-        cropped_image2 = image[y_start2:y_end2, x_start2:x_end2]
 
         # cv2.rectangle(image, (x_start, y_start), (x_end, y_end), (0, 0, 255), 2)
         # cv2.rectangle(image, (x_start1, y_start1), (x_end1, y_end1), (0, 0, 255), 2)
-        # cv2.rectangle(image, (x_start2, y_start2), (x_end2, y_end2), (0, 0, 255), 2)
 
         # cv2.imshow('Region to Crop', image)
         # cv2.waitKey(0)
@@ -68,31 +65,27 @@ class DinoEnv(gym.Env):
         # Cambiar el tamaño a una resolución más baja
         resized_image = cv2.resize(cropped_image, (80, 80))
         resized_image1 = cv2.resize(cropped_image1, (80, 80))
-        resized_image2 = cv2.resize(cropped_image2, (80, 80))
 
         # Convertir a escala de grises
         grayscale_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
         grayscale_image1 = cv2.cvtColor(resized_image1, cv2.COLOR_BGR2GRAY)
-        grayscale_image2 = cv2.cvtColor(resized_image2, cv2.COLOR_BGR2GRAY)
 
         # Normalizar los valores de los píxeles al rango [0, 1]
         normalized_image = grayscale_image / 255.0
         normalized_image1 = grayscale_image1 / 255.0
-        normalized_image2 = grayscale_image2 / 255.0
 
         # Convertir la imagen en un tensor
         image_tensor = torch.tensor(normalized_image, dtype=torch.float32) #imagen de detección de obstáculos
         image_tensor1 = torch.tensor(normalized_image1, dtype=torch.float32) #imagen de detección de salto
-        image_tensor2 = torch.tensor(normalized_image2, dtype=torch.float32) #imagen de detección de dinosaurio en tierra
 
-        return image_tensor, image_tensor1, image_tensor2
+        return image_tensor, image_tensor1
 
     def get_game_state(self):
         screenshot = self.driver.get_screenshot_as_png()
         image = cv2.imdecode(np.frombuffer(screenshot, np.uint8), cv2.IMREAD_COLOR)
-        image_tensor, image_tensor1, image_tensor2 = self.preprocess_image(image)
+        image_tensor, image_tensor1 = self.preprocess_image(image)
 
-        combined_tensor = np.stack([image_tensor, image_tensor1, image_tensor2], axis=0)
+        combined_tensor = np.stack([image_tensor, image_tensor1], axis=0)
         return combined_tensor
 
     def step(self, action):
