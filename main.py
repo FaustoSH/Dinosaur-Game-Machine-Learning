@@ -32,8 +32,6 @@ class DinoEnv(gym.Env):
         self.driver = webdriver.Chrome()
         self.action_space = spaces.Discrete(3)  # Salto, agacharse o no hacer nada
         self.observation_space = spaces.Box(low=0, high=1, shape=(2, 80, 80), dtype=np.float32)
-        self.DIED_CONSTANT=5000
-        self.counter = 0
         self.points = 0
 
         try:
@@ -96,34 +94,35 @@ class DinoEnv(gym.Env):
         
         #No defino la acción 3 que es no hacer nada porque no hace nada xd
             
-
-        combined_tensor= self.get_game_state()
-
         done = False
-        reward = 0 
+        reward = 1 
 
         if self.hasDied():
             logging.info("Encontrado final")
             self.body_element.send_keys(Keys.ARROW_UP)
             done = True
-            print("Puntos antes de muerte: "+str(self.points))
-            reward=-(self.DIED_CONSTANT/self.points)
-            self.points += reward
-        else:
-            reward = 1 
-            self.points += 1
+            reward = -12
+        elif self.dodgingObstable():
+            reward = 3
+        elif self.isMoving():
+            reward -3
+
+            
+        combined_tensor= self.get_game_state()
+            
+
+        self.points += reward
 
         return combined_tensor, reward, done, False,  {}
     
     def reset(self, seed=None):
         logging.info("Ha llegado hasta "+str(self.points)+" puntos")
+        self.points=0
         self.driver.refresh()
         time.sleep(1)
         self.body_element = self.driver.find_element(By.CSS_SELECTOR, 'body')
         self.body_element.send_keys(Keys.ARROW_UP)
         time.sleep(3)
-        self.counter = 0
-        self.points = 0
         combined_tensor= self.get_game_state()  # Descomposición de la tupla para obtener solo la observación
         return combined_tensor.astype(np.float32), {}
 
@@ -131,6 +130,58 @@ class DinoEnv(gym.Env):
     def hasDied(self):
         dino=self.driver.execute_script("return Runner.instance_.crashed;")
         return dino
+    
+    def dodgingObstable(self):
+        distanciaDePrevision = 10
+
+        # Obtener todas las propiedades necesarias en una sola llamada de JavaScript
+        script = """
+        return {
+            trexWidth: Runner.instance_.tRex.config.WIDTH,
+            trexWidthDuck: Runner.instance_.tRex.config.WIDTH_DUCK,
+            trexDucking: Runner.instance_.tRex.ducking,
+            nearestObstacle: Runner.instance_.horizon.obstacles.length > 0 ? Runner.instance_.horizon.obstacles[0] : null
+        };
+        """
+
+        data = self.driver.execute_script(script)
+
+        # Extraer datos
+        trexWidth = data['trexWidth']
+        trexWidthDuck = data['trexWidthDuck']
+        trexDucking = data['trexDucking']
+        nearestObstacle = data['nearestObstacle']
+
+        # Verificar si hay un obstáculo cercano
+        if nearestObstacle:
+            nearestObstacleWidth = nearestObstacle['width']
+            nearestObstacleXPosition = nearestObstacle['xPos']
+            effectiveTrexWidth = trexWidthDuck if trexDucking else trexWidth
+            isDodging = (nearestObstacleXPosition - nearestObstacleWidth) <= (effectiveTrexWidth + distanciaDePrevision)
+        else:
+            isDodging = False
+
+        return isDodging
+    
+    def isMoving(self):
+        script = """
+        return {
+            trexDucking: Runner.instance_.tRex.ducking,
+            trexJumping: Runner.instance_.tRex.jumping
+        };
+        """
+
+        data = self.driver.execute_script(script)
+
+        trexDucking = data["trexDucking"]
+        trexJumping = data["trexJumping"]
+
+        if trexDucking or trexJumping:
+            return True
+        else:
+            return False
+
+        
 
     def render(self, mode='human'):
         pass
