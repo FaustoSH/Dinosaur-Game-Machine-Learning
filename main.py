@@ -120,6 +120,8 @@ class DinoEnv(gym.Env):
         self.points=0
         self.driver.refresh()
         time.sleep(1)
+        #Desactivamos las nubes
+        self.driver.execute_script("Runner.instance_.horizon.addCloud=function(){}; Runner.instance_.horizon.clouds=[]")
         self.body_element = self.driver.find_element(By.CSS_SELECTOR, 'body')
         self.body_element.send_keys(Keys.ARROW_UP)
         time.sleep(3)
