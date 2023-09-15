@@ -30,10 +30,12 @@ class DinoEnv(gym.Env):
     def __init__(self):
         super(DinoEnv, self).__init__()
         self.driver = webdriver.Chrome()
+        self.driver.maximize_window()
         self.action_space = spaces.Discrete(3)  # Salto, agacharse o no hacer nada
         self.observation_space = spaces.Box(low=0, high=1, shape=(2, 80, 80), dtype=np.float32)
-        self.points = 0
-        self.deathCount = 0
+        self.ejecuciones=0
+        self.tiempoInicial=time.time()
+        self.deteccionesChoques=0
 
         try:
             self.driver.get('chrome://dino')
@@ -47,8 +49,8 @@ class DinoEnv(gym.Env):
 
     def preprocess_image(self, image):
         # Definir las coordenadas de recorte (por ejemplo)
-        y_start, y_end, x_start, x_end = 200, 435, 150, 1500 #Coordenadas de detección de obstáculos
-        y_start1, y_end1, x_start1, x_end1 = 200, 435, 0, 150 #Coordenadas de detección de dinosaurio
+        y_start, y_end, x_start, x_end = 250, 600, 250, 1700 #Coordenadas de detección de obstáculos
+        y_start1, y_end1, x_start1, x_end1 = 250, 600, 0, 250 #Coordenadas de detección de dinosaurio
 
         # Recortar la región de interés
         cropped_image = image[y_start:y_end, x_start:x_end]
@@ -71,17 +73,17 @@ class DinoEnv(gym.Env):
 
         #Opción 1 normalizamos los valores de los píxeles
         # # Normalizar los valores de los píxeles al rango [0, 1]
-        # normalized_image = grayscale_image / 255.0
-        # normalized_image1 = grayscale_image1 / 255.0
+        normalized_image = grayscale_image / 255.0
+        normalized_image1 = grayscale_image1 / 255.0
 
-        # # Convertir la imagen en un tensor
-        # image_tensor = torch.tensor(normalized_image, dtype=torch.float32) #imagen de detección de obstáculos
-        # image_tensor1 = torch.tensor(normalized_image1, dtype=torch.float32) #imagen de detección de salto
-
-        #Opción 2, mantenemos los valores de 0 a 255
         # Convertir la imagen en un tensor
-        image_tensor = torch.tensor(grayscale_image, dtype=torch.float32) #imagen de detección de obstáculos
-        image_tensor1 = torch.tensor(grayscale_image1, dtype=torch.float32) #imagen de detección de salto
+        image_tensor = torch.tensor(normalized_image, dtype=torch.float32) #imagen de detección de obstáculos
+        image_tensor1 = torch.tensor(normalized_image1, dtype=torch.float32) #imagen de detección de salto
+
+        # #Opción 2, mantenemos los valores de 0 a 255
+        # # Convertir la imagen en un tensor
+        # image_tensor = torch.tensor(grayscale_image, dtype=torch.float32) #imagen de detección de obstáculos
+        # image_tensor1 = torch.tensor(grayscale_image1, dtype=torch.float32) #imagen de detección de salto
 
         return image_tensor, image_tensor1
 
@@ -102,42 +104,33 @@ class DinoEnv(gym.Env):
         #No defino la acción 3 que es no hacer nada porque no hace nada xd
             
         done = False
+        if (time.time() - self.tiempoInicial) >45: #Se reinicia cada 45 segundos
+            done=True
+
         reward = 1 
 
-        if self.hasDied():
-            logging.info("Encontrado final")
-            print("Se ha muerto "+str(self.deathCount)+" veces")
-            if self.deathCount%2==0:
-                reward = -12 #Como cuando detecta muerte lo hace dos veces seguidas, le pongo este if para que no le reste dos veces seguidas
-            #Sólo reseteamos después de 10 muertes para reforzar el sentimiendo de que no pierda. Como cuenta las muertes de 2 en 2 por eso pongo 20
-            if self.deathCount > 20:
-                done=True
-            else:
-                self.deathCount +=1
-                time.sleep(1)
-                self.body_element.send_keys(Keys.ARROW_UP)
-                time.sleep(2)
-        elif self.dodgingObstable():
-            reward = 3
-        elif self.isMoving():
-            reward -3
-
+        if self.hasCrashed():
+            reward = -15
+            self.deteccionesChoques+=1
             
         combined_tensor= self.get_game_state()
             
-
-        self.points += reward
-
         return combined_tensor, reward, done, False,  {}
     
     def reset(self, seed=None):
-        logging.info("Ha llegado hasta "+str(self.points)+" puntos")
-        self.points=0
-        self.deathCount=0
+        logging.info("Ejecucion numero "+str(self.ejecuciones)+" terminada con "+str(self.deteccionesChoques)+" choques detectados")
+        self.ejecuciones+=1
+        self.deteccionesChoques=0
         self.driver.refresh()
         time.sleep(1)
+
+        self.tiempoInicial=time.time()
+
         #Desactivamos las nubes
         self.driver.execute_script("Runner.instance_.horizon.addCloud=function(){}; Runner.instance_.horizon.clouds=[]")
+        #Desactivamos la posibilidad de morir 
+        self.driver.execute_script("Runner.prototype.gameOver = function (){}")
+
         self.body_element = self.driver.find_element(By.CSS_SELECTOR, 'body')
         self.body_element.send_keys(Keys.ARROW_UP)
         time.sleep(3)
@@ -145,61 +138,64 @@ class DinoEnv(gym.Env):
         return combined_tensor.astype(np.float32), {}
 
 
-    def hasDied(self):
-        dino=self.driver.execute_script("return Runner.instance_.crashed;")
-        return dino
-    
-    def dodgingObstable(self):
-        distanciaDePrevision = 10
+    def hasCrashed(self):
+        jscode='''
+function CollisionBox(x, y, w, h) {
+    this.x = x;
+    this.y = y;
+    this.width = w;
+    this.height = h;
+}
 
-        # Obtener todas las propiedades necesarias en una sola llamada de JavaScript
-        script = """
-        return {
-            trexWidth: Runner.instance_.tRex.config.WIDTH,
-            trexWidthDuck: Runner.instance_.tRex.config.WIDTH_DUCK,
-            trexDucking: Runner.instance_.tRex.ducking,
-            nearestObstacle: Runner.instance_.horizon.obstacles.length > 0 ? Runner.instance_.horizon.obstacles[0] : null
-        };
-        """
+function compareBox(tRexBox, obstacleBox) {
+    let crashed = false;
+    const tRexBoxX = tRexBox.x;
+    const tRexBoxY = tRexBox.y;
 
-        data = self.driver.execute_script(script)
+    const obstacleBoxX = obstacleBox.x;
+    const obstacleBoxY = obstacleBox.y;
 
-        # Extraer datos
-        trexWidth = data['trexWidth']
-        trexWidthDuck = data['trexWidthDuck']
-        trexDucking = data['trexDucking']
-        nearestObstacle = data['nearestObstacle']
+    // Axis-Aligned Bounding Box method.
+    if (tRexBox.x < obstacleBoxX + obstacleBox.width &&
+        tRexBox.x + tRexBox.width > obstacleBoxX &&
+        tRexBox.y < obstacleBox.y + obstacleBox.height &&
+        tRexBox.height + tRexBox.y > obstacleBox.y) {
+        crashed = true;
+    }
 
-        # Verificar si hay un obstáculo cercano
-        if nearestObstacle:
-            nearestObstacleWidth = nearestObstacle['width']
-            nearestObstacleXPosition = nearestObstacle['xPos']
-            effectiveTrexWidth = trexWidthDuck if trexDucking else trexWidth
-            isDodging = (nearestObstacleXPosition - nearestObstacleWidth) <= (effectiveTrexWidth + distanciaDePrevision)
-        else:
-            isDodging = False
+    return crashed;
+}
 
-        return isDodging
-    
-    def isMoving(self):
-        script = """
-        return {
-            trexDucking: Runner.instance_.tRex.ducking,
-            trexJumping: Runner.instance_.tRex.jumping
-        };
-        """
 
-        data = self.driver.execute_script(script)
+function checkCollision(obstacles, tRex) {
+    if (obstacles.length == 0) {
+        return false;
+    }
 
-        trexDucking = data["trexDucking"]
-        trexJumping = data["trexJumping"]
+    const obstacle = obstacles[0]
 
-        if trexDucking or trexJumping:
-            return True
-        else:
-            return False
+    const tRexBox = new CollisionBox(
+        tRex.xPos + 1,
+        tRex.yPos + 1,
+        tRex.config.WIDTH - 2,
+        tRex.config.HEIGHT - 2);
 
-        
+    const obstacleBox = new CollisionBox(
+        obstacle.xPos + 1,
+        obstacle.yPos + 1,
+        obstacle.typeConfig.width * obstacle.size - 2,
+        obstacle.typeConfig.height - 2);
+
+
+    // Simple outer bounds check.
+    return compareBox(tRexBox, obstacleBox)
+}
+
+return checkCollision(Runner.instance_.horizon.obstacles, Runner.instance_.tRex);
+        '''
+        crashed=self.driver.execute_script(jscode)
+        return crashed
+                
 
     def render(self, mode='human'):
         pass
@@ -217,7 +213,14 @@ model = DQN("MlpPolicy", env, verbose=1, buffer_size=buffer_size)
 
 logging.info("Comenzando entrenamiento")
 # Entrenamiento
-model.learn(total_timesteps=600000)  # Aproximadamente 10 minutos de entrenamiento
+model.learn(total_timesteps=100)  
+
+# Guardar el modelo
+model.save("dino_model")
+logging.info("Modelo guardado como dino_model.zip")
+
+# Cargar el modelo (opcional, solo para demostrar)
+loaded_model = DQN.load("dino_model", env=env)
 
 logging.info("Comenzando juego")
 observation, arrayVacio = env.reset() # Inicialización de la observación

@@ -1,4 +1,21 @@
 GPU is available
-Exception trying to discover chromedriver version: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: Host desconocido. (os error 11001)
-Ha llegado hasta 0 puntos
-Ha llegado hasta 0 puntos
+Ejecucion numero 0 terminada con 0 choques detectados
+Ejecucion numero 1 terminada con 0 choques detectados
+Ejecucion numero 2 terminada con 0 choques detectados
+Comenzando entrenamiento
+Ejecucion numero 3 terminada con 0 choques detectados
+Modelo guardado como dino_model.zip
+Comenzando juego
+Ejecucion numero 4 terminada con 10 choques detectados
+Partida terminada
+Ejecucion numero 5 terminada con 37 choques detectados
+Partida terminada
+Ejecucion numero 6 terminada con 33 choques detectados
+Partida terminada
+Ejecucion numero 7 terminada con 34 choques detectados
+Partida terminada
+Ejecucion numero 8 terminada con 35 choques detectados
+Partida terminada
+Ejecucion numero 9 terminada con 29 choques detectados
+Partida terminada
+Ejecucion numero 10 terminada con 33 choques detectados
