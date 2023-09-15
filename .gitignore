@@ -4,3 +4,4 @@ dinosaurio/
 chromedriver.exe
 geckodriver.exe
 *.txt
+*.csv
