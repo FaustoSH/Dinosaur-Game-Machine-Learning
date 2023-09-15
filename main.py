@@ -33,6 +33,7 @@ class DinoEnv(gym.Env):
         self.action_space = spaces.Discrete(3)  # Salto, agacharse o no hacer nada
         self.observation_space = spaces.Box(low=0, high=1, shape=(2, 80, 80), dtype=np.float32)
         self.points = 0
+        self.deathCount = 0
 
         try:
             self.driver.get('chrome://dino')
@@ -68,13 +69,19 @@ class DinoEnv(gym.Env):
         grayscale_image = cv2.cvtColor(resized_image, cv2.COLOR_BGR2GRAY)
         grayscale_image1 = cv2.cvtColor(resized_image1, cv2.COLOR_BGR2GRAY)
 
-        # Normalizar los valores de los píxeles al rango [0, 1]
-        normalized_image = grayscale_image / 255.0
-        normalized_image1 = grayscale_image1 / 255.0
+        #Opción 1 normalizamos los valores de los píxeles
+        # # Normalizar los valores de los píxeles al rango [0, 1]
+        # normalized_image = grayscale_image / 255.0
+        # normalized_image1 = grayscale_image1 / 255.0
 
+        # # Convertir la imagen en un tensor
+        # image_tensor = torch.tensor(normalized_image, dtype=torch.float32) #imagen de detección de obstáculos
+        # image_tensor1 = torch.tensor(normalized_image1, dtype=torch.float32) #imagen de detección de salto
+
+        #Opción 2, mantenemos los valores de 0 a 255
         # Convertir la imagen en un tensor
-        image_tensor = torch.tensor(normalized_image, dtype=torch.float32) #imagen de detección de obstáculos
-        image_tensor1 = torch.tensor(normalized_image1, dtype=torch.float32) #imagen de detección de salto
+        image_tensor = torch.tensor(grayscale_image, dtype=torch.float32) #imagen de detección de obstáculos
+        image_tensor1 = torch.tensor(grayscale_image1, dtype=torch.float32) #imagen de detección de salto
 
         return image_tensor, image_tensor1
 
@@ -99,9 +106,17 @@ class DinoEnv(gym.Env):
 
         if self.hasDied():
             logging.info("Encontrado final")
-            self.body_element.send_keys(Keys.ARROW_UP)
-            done = True
-            reward = -12
+            print("Se ha muerto "+str(self.deathCount)+" veces")
+            if self.deathCount%2==0:
+                reward = -12 #Como cuando detecta muerte lo hace dos veces seguidas, le pongo este if para que no le reste dos veces seguidas
+            #Sólo reseteamos después de 10 muertes para reforzar el sentimiendo de que no pierda. Como cuenta las muertes de 2 en 2 por eso pongo 20
+            if self.deathCount > 20:
+                done=True
+            else:
+                self.deathCount +=1
+                time.sleep(1)
+                self.body_element.send_keys(Keys.ARROW_UP)
+                time.sleep(2)
         elif self.dodgingObstable():
             reward = 3
         elif self.isMoving():
@@ -118,6 +133,7 @@ class DinoEnv(gym.Env):
     def reset(self, seed=None):
         logging.info("Ha llegado hasta "+str(self.points)+" puntos")
         self.points=0
+        self.deathCount=0
         self.driver.refresh()
         time.sleep(1)
         #Desactivamos las nubes
