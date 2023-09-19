@@ -34,7 +34,7 @@ class DinoEnv(gym.Env):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.action_space = spaces.Discrete(2)  # Salto o no hacer nada
-        self.observation_space = spaces.Box(low=0, high=255, shape=(1, 350, 550), dtype=np.uint8)
+        self.observation_space = spaces.Box(low=0, high=255, shape=(1, 350, 850), dtype=np.uint8)
         self.ejecuciones=0
         self.puntos=0
         self.obstaculo=None
@@ -51,7 +51,7 @@ class DinoEnv(gym.Env):
 
     def preprocess_image(self, image):
         # Definir las coordenadas de recorte (por ejemplo)
-        y_start, y_end, x_start, x_end = 270, 620, 100, 650 #Coordenadas de detección de obstáculos
+        y_start, y_end, x_start, x_end = 270, 620, 100, 950 #Coordenadas de detección de obstáculos
 
         # Recortar la región de interés
         cropped_image = image[y_start:y_end, x_start:x_end]
@@ -62,9 +62,6 @@ class DinoEnv(gym.Env):
         # Convertir la imagen en un tensor
         image_tensor = torch.tensor(grayscale_image, dtype=torch.uint8) #imagen de detección de obstáculos
 
-        # plt.figure(figsize=(10, 5))
-        # plt.imshow(image_tensor)
-        # plt.show()
 
         return image_tensor
 
@@ -92,7 +89,6 @@ class DinoEnv(gym.Env):
 
         self.puntos+=reward
 
-            
         combined_tensor= self.get_game_state()
             
         return combined_tensor, reward, done, False,  {}
@@ -116,25 +112,25 @@ class DinoEnv(gym.Env):
 
     def obstacleDoged(self):
         if self.hasDied():
-            return -1,True
+            return -10,True
                 
         ultimaPosicion=self.driver.execute_script("return Runner.instance_.horizon.obstacles.length>0 ? Runner.instance_.horizon.obstacles[0].xPos : null;")
 
         if ultimaPosicion==None: #No hay ningún obstáculo a la vista
             self.obstaculo=ultimaPosicion
-            return 0,False
+            return 1,False
 
         if self.obstaculo==None:
             self.obstaculo=ultimaPosicion
-            return 0,False
+            return 1,False
         
         if self.obstaculo>=ultimaPosicion:
             self.obstaculo=ultimaPosicion
-            return 0,False
+            return 11,False
         
         if self.obstaculo<ultimaPosicion: #Aquí se ha cambiado de obstáculo porque ahora el más próximo tiene una x mayor que la última que teníamos registrada
             self.obstaculo=ultimaPosicion
-            return 1,False
+            return 20,False
 
         return 0,False
     
@@ -151,22 +147,20 @@ class DinoEnv(gym.Env):
 
 # Creación de la instancia del entorno
 env = DinoEnv()
-#check_env(env)
 
-buffer_size = 100000  
 # Creación del modelo
-model = DQN("MlpPolicy", env, verbose=1, buffer_size=buffer_size)
+model = DQN("MlpPolicy", env, verbose=1, buffer_size=100000, batch_size=10000, exploration_initial_eps=1.0 ,exploration_fraction=0.5, exploration_final_eps=0.05)
 
 logging.info("Comenzando entrenamiento")
 # Entrenamiento
-model.learn(total_timesteps=180000) 
+model.learn(total_timesteps=10000) 
 
 # Guardar el modelo
 model.save("dino_model")
 logging.info("Modelo guardado como dino_model.zip")
 
 # Cargar el modelo (opcional, solo para demostrar)
-loaded_model = DQN.load("dino_model", env=env, exploration_initial_eps=1.0 ,exploration_fraction=0.2)
+loaded_model = DQN.load("dino_model", env=env)
 
 logging.info("Comenzando juego")
 observation, arrayVacio = env.reset() # Inicialización de la observación
