@@ -12,10 +12,10 @@ lineas = texto.strip().split("\n")
 datos = []
 
 # Añadimos la cabecera de las columnas
-datos.append(["Numero de Ejecucion", "Numero de Choques"])
+datos.append(["Numero de Ejecucion", "Puntos"])
 
 # Usamos expresiones regulares para extraer los números de cada línea
-patron = re.compile(r"Ejecucion numero (\d+) terminada con (\d+) choques detectados")
+patron = re.compile(r"Ejecucion numero (\d+) terminada con (\d+) puntos")
 
 for linea in lineas:
     match = patron.match(linea)

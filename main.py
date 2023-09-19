@@ -17,15 +17,15 @@ import matplotlib.pyplot as plt
 
 logging.basicConfig(level=logging.INFO,
                     format='%(message)s',
-                    handlers=[logging.FileHandler('log.txt', mode='w'), logging.StreamHandler()])
+                    handlers=[logging.FileHandler('log.csv', mode='w'), logging.StreamHandler()])
 
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
-    logging.info("GPU is available")
+    print("GPU is available")
 else:
     device = torch.device("cpu")
-    logging.info("GPU not available, using CPU")
+    print("GPU not available, using CPU")
 
 
 class DinoEnv(gym.Env):
@@ -94,7 +94,7 @@ class DinoEnv(gym.Env):
         return combined_tensor, reward, done, False,  {}
     
     def reset(self, seed=None):
-        logging.info("Ejecucion numero "+str(self.ejecuciones)+" terminada con "+str(self.puntos)+" puntos")
+        logging.info(str(self.ejecuciones)+";"+str(self.puntos)+";"+str(model.exploration_rate))
         self.ejecuciones+=1
         self.puntos=0
         self.obstaculo=None
@@ -103,6 +103,8 @@ class DinoEnv(gym.Env):
 
         #Desactivamos las nubes
         self.driver.execute_script("Runner.instance_.horizon.addCloud=function(){}; Runner.instance_.horizon.clouds=[]")
+        #Desactivamos la aceleración
+        self.driver.execute_script("Runner.instance_.config.ACCELERATION=0")
 
         self.body_element = self.driver.find_element(By.CSS_SELECTOR, 'body')
         self.body_element.send_keys(Keys.ARROW_UP)
@@ -118,15 +120,15 @@ class DinoEnv(gym.Env):
 
         if ultimaPosicion==None: #No hay ningún obstáculo a la vista
             self.obstaculo=ultimaPosicion
-            return 1,False
+            return 0,False
 
         if self.obstaculo==None:
             self.obstaculo=ultimaPosicion
-            return 1,False
+            return 0,False
         
         if self.obstaculo>=ultimaPosicion:
             self.obstaculo=ultimaPosicion
-            return 11,False
+            return 0,False
         
         if self.obstaculo<ultimaPosicion: #Aquí se ha cambiado de obstáculo porque ahora el más próximo tiene una x mayor que la última que teníamos registrada
             self.obstaculo=ultimaPosicion
@@ -151,23 +153,24 @@ env = DinoEnv()
 # Creación del modelo
 model = DQN("MlpPolicy", env, verbose=1, buffer_size=100000, batch_size=10000, exploration_initial_eps=1.0 ,exploration_fraction=0.5, exploration_final_eps=0.05)
 
-logging.info("Comenzando entrenamiento")
+print("Comenzando entrenamiento")
+logging.info('Ejecucion;Puntos;Exploration_rate')
 # Entrenamiento
 model.learn(total_timesteps=10000) 
 
 # Guardar el modelo
 model.save("dino_model")
-logging.info("Modelo guardado como dino_model.zip")
+print("Modelo guardado como dino_model.zip")
 
 # Cargar el modelo (opcional, solo para demostrar)
 loaded_model = DQN.load("dino_model", env=env)
 
-logging.info("Comenzando juego")
+print("Comenzando juego")
 observation, arrayVacio = env.reset() # Inicialización de la observación
 while True:
     action, _states = model.predict(observation)
     observation, reward, done, info, arrayVacio = env.step(action)
     if done:
-        logging.info("Partida terminada")
+        print("Partida terminada")
         observation, arrayVacio = env.reset()
 
