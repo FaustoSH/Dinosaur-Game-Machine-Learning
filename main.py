@@ -36,8 +36,8 @@ class DinoEnv(gym.Env):
         self.action_space = spaces.Discrete(2)  # Salto o no hacer nada
         self.observation_space = spaces.Box(low=0, high=255, shape=(1, 350, 550), dtype=np.uint8)
         self.ejecuciones=0
-        self.tiempoInicial=time.time()
         self.puntos=0
+        self.obstaculo=None
 
         try:
             self.driver.get('chrome://dino')
@@ -87,16 +87,11 @@ class DinoEnv(gym.Env):
 
         if action!=1:
             self.body_element.send_keys(action_map[action])
-                    
-        done = False
-        
-        reward = 1 
+                           
+        reward,done = self.obstacleDoged()
 
-        self.puntos+=1
+        self.puntos+=reward
 
-        if self.hasDied():
-            self.body_element.send_keys(Keys.SPACE)
-            done = True
             
         combined_tensor= self.get_game_state()
             
@@ -106,10 +101,9 @@ class DinoEnv(gym.Env):
         logging.info("Ejecucion numero "+str(self.ejecuciones)+" terminada con "+str(self.puntos)+" puntos")
         self.ejecuciones+=1
         self.puntos=0
+        self.obstaculo=None
         self.driver.refresh()
         time.sleep(1)
-
-        self.tiempoInicial=time.time()
 
         #Desactivamos las nubes
         self.driver.execute_script("Runner.instance_.horizon.addCloud=function(){}; Runner.instance_.horizon.clouds=[]")
@@ -120,6 +114,29 @@ class DinoEnv(gym.Env):
         combined_tensor= self.get_game_state()  # Descomposición de la tupla para obtener solo la observación
         return combined_tensor.astype(np.uint8), {}
 
+    def obstacleDoged(self):
+        if self.hasDied():
+            return -1,True
+                
+        ultimaPosicion=self.driver.execute_script("return Runner.instance_.horizon.obstacles.length>0 ? Runner.instance_.horizon.obstacles[0].xPos : null;")
+
+        if ultimaPosicion==None: #No hay ningún obstáculo a la vista
+            self.obstaculo=ultimaPosicion
+            return 0,False
+
+        if self.obstaculo==None:
+            self.obstaculo=ultimaPosicion
+            return 0,False
+        
+        if self.obstaculo>=ultimaPosicion:
+            self.obstaculo=ultimaPosicion
+            return 0,False
+        
+        if self.obstaculo<ultimaPosicion: #Aquí se ha cambiado de obstáculo porque ahora el más próximo tiene una x mayor que la última que teníamos registrada
+            self.obstaculo=ultimaPosicion
+            return 1,False
+
+        return 0,False
     
     def hasDied(self):
         dino=self.driver.execute_script("return Runner.instance_.crashed;")
@@ -142,14 +159,14 @@ model = DQN("MlpPolicy", env, verbose=1, buffer_size=buffer_size)
 
 logging.info("Comenzando entrenamiento")
 # Entrenamiento
-model.learn(total_timesteps=600000) 
+model.learn(total_timesteps=180000) 
 
 # Guardar el modelo
 model.save("dino_model")
 logging.info("Modelo guardado como dino_model.zip")
 
 # Cargar el modelo (opcional, solo para demostrar)
-loaded_model = DQN.load("dino_model", env=env)
+loaded_model = DQN.load("dino_model", env=env, exploration_initial_eps=1.0 ,exploration_fraction=0.2)
 
 logging.info("Comenzando juego")
 observation, arrayVacio = env.reset() # Inicialización de la observación
