@@ -151,12 +151,12 @@ class DinoEnv(gym.Env):
 env = DinoEnv()
 
 # Creación del modelo
-model = DQN("MlpPolicy", env, verbose=1, buffer_size=100000, batch_size=10000, exploration_initial_eps=1.0 ,exploration_fraction=0.5, exploration_final_eps=0.05)
+model = DQN("MlpPolicy", env, verbose=1, buffer_size=100000, batch_size=10000, exploration_initial_eps=1.0 ,exploration_fraction=0.6, exploration_final_eps=0.05, gamma=0.01)
 
 print("Comenzando entrenamiento")
 logging.info('Ejecucion;Puntos;Exploration_rate')
 # Entrenamiento
-model.learn(total_timesteps=10000) 
+model.learn(total_timesteps=20000) 
 
 # Guardar el modelo
 model.save("dino_model")
